@@ -23,7 +23,7 @@ public class LocationApplication implements CommandLineRunner {
 
 		System.out.println("Bismillah");
 
-		Location location = new Location(0, Status.OCCUPIED.toString(), 10);
+		Location location = new Location(0,"Test", Status.OCCUPIED.toString(), 10);
 
 		Location locationDb = locationService.saveLocation(location);
 

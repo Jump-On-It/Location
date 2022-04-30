@@ -21,6 +21,7 @@ public class Location {
     @GeneratedValue(strategy = GenerationType.AUTO)
 
     private long id;
+    private String name;
     private String status;
     private int capacity;
 }
